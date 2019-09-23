@@ -10,11 +10,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="253,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Historic" Foreground="#FFD32222"><Run Text="Hola  mund"/><Run Text="o"/><Run Text="!"/></TextBlock>
+        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="253,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Historic" Foreground="#FFD32222"><Run Text="Hola mund"/><Run Text="o"/><Run Text="!"/></TextBlock>
         <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="253,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Nombre"/><Run Text=":"/></TextBlock>
         <TextBox HorizontalAlignment="Left" Height="0" Margin="341,242,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
         <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="253,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="AceptarButton1" Content="Aceptar" HorizontalAlignment="Left" Margin="457,250,0,0" VerticalAlignment="Top" Width="75" Click="AceptarButton1_Click"/>
+        <Button x:Name="LimpiarButton" Content="Limpiar" HorizontalAlignment="Left" Margin="554,250,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.124,0.54" Click="Limpiar_Click"/>
 
     </Grid>
 
