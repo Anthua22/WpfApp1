@@ -25,14 +25,14 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
+     
 
         private void AceptarButton1_Click(object sender, RoutedEventArgs e)
         {
-            SaludoTextBlock.Text = "Hola "+NombreTextBox.Text;
+            if (NombreTextBox.Text == "")
+                SaludoTextBlock.Text = "Hola Mundo!!";
+            else
+                SaludoTextBlock.Text = "Hola " + NombreTextBox.Text;
         }
 
         private void Limpiar_Click(object sender, RoutedEventArgs e)
