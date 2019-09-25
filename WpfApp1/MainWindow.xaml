@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Hola Mundo" Height="450" Width="800">
+        Title="Hola Mundo" Height="450" Width="800" Icon="128.ico">
     <Grid x:Name="AceptarButton">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="253,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Historic" Foreground="#FFD32222"><Run Text="Hola mund"/><Run Text="o"/><Run Text="!"/></TextBlock>
-        <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="253,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Nombre"/><Run Text=":"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Height="0" Margin="341,242,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
-        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="253,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" TextChanged="TextBox_TextChanged"/>
-        <Button x:Name="AceptarButton1" Content="Aceptar" HorizontalAlignment="Left" Margin="457,250,0,0" VerticalAlignment="Top" Width="75" Click="AceptarButton1_Click"/>
-        <Button x:Name="LimpiarButton" Content="Limpiar" HorizontalAlignment="Left" Margin="554,250,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.124,0.54" Click="Limpiar_Click"/>
+
+
+        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="199,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Historic" Foreground="#FFD32222" Height="64" Width="277"><Run Text="Hola mund"/><Run Text="o"/><Run Text="!"/></TextBlock>
+        <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="199,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="46" RenderTransformOrigin="3.826,-0.531"><Run Text="Nombre"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="0" Margin="47,242,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="199,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="AceptarButton1" Content="Aceptar" HorizontalAlignment="Left" Margin="382,247,0,0" VerticalAlignment="Top" Width="74" Click="AceptarButton1_Click" Height="20"/>
+        <Button x:Name="LimpiarButton" Content="Limpiar" HorizontalAlignment="Left" Margin="494,247,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="-0.124,0.54" Click="Limpiar_Click" Height="20"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="226,-194,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
 
     </Grid>
 
